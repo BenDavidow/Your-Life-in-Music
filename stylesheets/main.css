@@ -1,0 +1,158 @@
+/* base */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: medium;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	width: 200px;
+}
+
+/* end reset */
+
+@font-face {
+    font-family: 'MuseoSans500';
+    src: url('../fonts/MuseoSans_500-webfont.eot');
+    src: url('../fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('../fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('../fonts/MuseoSans_500-webfont.svg#MuseoSans500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+	
+h4,h3,h2, p, a, form, body { font-family: 'MuseoSans500', Helvetica, Helvetica Neue, Arial, sans-serif; }
+em { font-style: italic; }
+
+
+body {
+    color: #ffffff;
+    background: url('../images/b1.png');
+    text-align: center;
+}
+
+h1 {
+    font-size: 200%;
+    margin: 10px 0 15px 0;
+}
+
+h2 {
+    font-size: 110%;
+    margin: 0 0 20px 0;
+}
+
+input {
+    margin: 0 0 0 0;
+    font-size: 110%;
+    width: 120px;
+    height: 30px;
+    padding: 3px;
+}
+
+button {
+    margin: 10px 0 0 0;
+    font-size: 110%;
+    padding: 5px;
+    border: 1px solid #fcfcfc;
+    color: #333333;
+    border-radius: 
+}
+
+button:hover {
+    background: #cccccc;
+    cursor: pointer;
+}
+
+/* layout */
+
+#album-display {
+    margin: 30px 0 0 0;
+}
+
+/* modules */
+
+.birth-date {
+    margin: 0 5px 0 20px;
+}
+
+.example-date {
+    margin: 8px 0px 0 -82px;
+}
+
+.age {
+    margin: 0 0 15px 0;
+    font-size: 120%;
+}
+
+.track {
+    margin: 10px 0 7px 0;
+}
+
+#album-display li {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 15px 0 15px 0;
+    background: #303030;
+    border: 1px solid #666666;
+    width: 260px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.album-cover {
+    border: 1px solid #aaaaaa;
+}
+
+.pre-1958 {
+    margin: 50px 0 20px 0;
+}
+/* state */
